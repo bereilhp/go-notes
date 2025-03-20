@@ -15,6 +15,10 @@ func main() {
 	var message string = "go find type"
 	var isCheck bool = true
 	var amount float32 = 10.2
+	var test string
+	test = "John"
+	var y, z int = 1, 3
+	hello, world := 2, "World!"
 
 	fmt.Printf("variable count=%v is of type %T \n", count, count)
 	fmt.Printf("variable message='%v' is of type %T \n", message, message)
@@ -26,4 +30,10 @@ func main() {
 	fmt.Printf("variable a=%v is of type %T \n", a, a)
 	fmt.Printf("variable b=%v is of type %T \n", b, b)
 	fmt.Printf("variable c=%v is of type %T \n", c, c)
+	fmt.Printf("variable test=%v is of type %T \n", test, test)
+	fmt.Printf("variable y=%v is of type %T \n", y, y)
+	fmt.Printf("variable z=%v is of type %T \n", z, z)
+	fmt.Printf("variable hello=%v is of type %T \n", hello, hello)
+	fmt.Printf("variable world=%v is of type %T \n", world, world)
+
 }
