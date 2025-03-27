@@ -6,8 +6,6 @@ This repository serves as a reference for learning, experimenting and building w
 
 ## Go Version
 
-Currently using:
-
 ```
 go1.24.1
 ```
